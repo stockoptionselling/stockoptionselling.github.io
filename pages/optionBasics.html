@@ -64,7 +64,7 @@
 					Never directly buy stock again, instead sell a put option contract. A put option allows the seller of the contract 
 					to buy stock/etf at a <b>discount</b>! Therefore, selling a put option contract should be the first concept a new option trader should learn. 
 					Each put option contract is for 100 shares of stock.  When selling a put option contract, 
-					the seller is agreeing to be a buyer of a specific stock (100 shares) at some (lower) price (referred to as the strike price) 
+					the seller is agreeing to be a buyer of a specific stock (100 shares) at some (typically lower) price (referred to as the strike price) 
 					at any time until the contract's expiration date.  The buyer of the option contract pays the seller an initial amount of 
 					money for the contract (referred to as premium).
 				</p>
@@ -78,10 +78,10 @@
 				</p>
 				<h4 style="margin-left:2em;color:#0B6EFD">Example</h4>
 				<p style="margin-left:2em">
-					Suppose Apple's current stock (AAPL) price is $100 per share and A put option seller is willing 
-					to offer protection at $90 ($10 below the current price). Therefore, suppose he sells a contract with a strike price at $90 that expires in 30 days.  Further suppose the 
+					Suppose Apple's current stock (AAPL) price is $100 per share and a put option seller is willing 
+					to offer protection at $90 ($10 below the current price). Therefore, suppose he sells a put contract with a strike price at $90 that expires in 30 days.  Further suppose the 
 					premium collected for the contract is $2 per share.  As a result, in this case one contract (100 shares) would result in a total premium of $200 ($2 x 100 shares).  
-					(The total premium is deposited/credited into the seller's account within a day of selling the contact.)  The seller is required to have 
+					(The total premium is deposited/credited (paid by the contract buyer) into the seller's account within a day of selling the contact.)  The seller is required to have 
 					$9000 ($90 x 100 shares) available in reserve while responsible for the contract in order to purchase the 100 shares (in the event the insurance is used, 
 					which is referred to as the contract being exercised/assigned).
 				</p>
@@ -92,14 +92,15 @@
 					<li>
 						The price of the stock stays above the strike price ($90) for the full life of the contract (30 days), therefore, 
 						the insurance is not needed/used/exercised.  The contract expires, and the seller earns $200 in total premium on a $9000 investment over a 30 day period 
-						and is not required to buy the stock.  Just like what happens to home or auto insurance contracts each period if a claim is never filed.
+						and is not required to buy the stock.  (This is just like what happens to home or auto insurance contracts each period if a claim is never filed. You keep your house/car and
+						the insurance company keeps the premium you paid them.  In this case, the put contract buyer keeps his 100 shares and the contract seller keeps the premium paid.)
 					</li>
 					<li>
 						The price of the stock drops below the strike price, $90 (i.e. $85) during the life of the contract (30 days). 
 						The insurance is used/exercised.  The put option contract seller is required to buy 100 shares at the strike price, $90, for a total cost of $9000.  
 						However, because the seller received a $2 per share premium, the actual net price was $88 and net cost was $8800.  As a result, if the current price 
 						per share is $85, the seller now has an unrealized loss of $300, (8500 [Current market price] - 8800 [net cost] = -300). However, the loss is only realized if the shares are sold AND
-						CALL options can be sold when owning stock that will allow additional premium to be collected (more on this later)
+						CALL options contracts can be sold when owning stock that will allow additional premium to be collected (more on this later)
 					</li>
 				</ol>
 				<h4 style="margin-left:2em;color:#0B6EFD">Outcome 1 - Price stayed above $90 strike:</h4>
@@ -112,7 +113,7 @@
 					</li>
 					<li>
 						The option seller is able to make money if the stock goes up, stays the same, or even
-						goes down a little (at most 10% - staying above the $90 strike) because in those cases the contract would never be used/exercised.
+						goes down a little (at most 10% - staying above the $90 strike) because in all those cases the contract would never be used/exercised.
 					</li>
 				</ol>
 				<h5 style="margin-left:2em;color:#FF9A0F">Option Seller CONs</h5>
@@ -151,9 +152,9 @@
 					</li>
 				</ol>
 				<p style="margin-left:2em">
-					Based on this reasoning, many people agree that being a seller of cash secured put option contracts on stocks a person would like to own
+					Based on this reasoning, many people agree that being a seller of put option contracts (cash secured, not on margin) on stocks a person would like to own
 					is a safer/more conservative strategy than being a traditional buy and hold investor.  This is why famous investors like Warren Buffet sells
-					billions of dollars worth of cash secured put option contracts, but for some reason the main stream media never talks about it.
+					billions of dollars worth of cash secured put option contracts, but for some reason the main stream media never talks about it....
 				</p>
 			 </p:fieldset>
 			 <h4 style="margin-left:2em;color:#0B6EFD">Call Options</h4>
@@ -161,8 +162,8 @@
 			 	<p style="margin-left:2em">
 				 	Never directly sell stock again, instead sell a call option contract. A call option contact allows the buyer
 				 	to purchase 100 shares of a stock/etf from the seller at a specified price (referred to as the strike price) at any time until 
-				 	the contract's expiration date.  Being a call option seller is the safest option strategy for an existing investor that already 
-				 	owns 100 shares of a stock/etf because the seller decides at what price to sell (the strike price).  The buyer of the option contract pays the seller an initial amount of money for the contract 
+				 	the contract's expiration date.  Being a call option seller (often called a "covered call") is the safest option strategy for an existing investor that already 
+				 	owns 100 shares of a stock/etf because the seller decides at what price to sell (the strike price).  The buyer of the option contract pays the seller an initial amount of money so that the contract 
 				 	(referred to as premium), in the hopes that the stock price will go beyond the strike price.  If that happens, the contract 
 				 	buyer can &quot;buy low and sell high&quot; for a profit.  However, if that doesn't happen, the contract seller gets to keep 
 				 	the premium and their 100 shares, allowing them to sell another call option and make more premium.
